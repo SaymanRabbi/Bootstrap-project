@@ -60,3 +60,11 @@ opacity: 0;
 .carousel-image:hover{
     filter: grayscale(0%);
 }
+.icons{
+    width: 50px;
+    height: 60px;
+    background-color: #FFF2E7;
+    padding: 0px 0px 0px 5px;
+    font-size: 40px;
+    color: orange;
+}
