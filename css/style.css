@@ -68,3 +68,22 @@ opacity: 0;
     font-size: 40px;
     color: orange;
 }
+.card-overly{
+    position: relative;
+   
+}
+.card-overly::before{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.424);
+   opacity: 0;
+   transition: all .5s;
+}
+
+.overly-show:hover .card-overly::before{
+    opacity: 1;
+}
