@@ -87,3 +87,27 @@ opacity: 0;
 .overly-show:hover .card-overly::before{
     opacity: 1;
 }
+.fill-orange{
+    fill: orange;
+}
+.study-video{
+    position: relative;
+    background-image: url(../image/04.jpg);
+    background-size: cover;
+     height: 300px;
+}
+.study-video a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer{
+    background-color: #1D3B53;
+}
+.footer span{
+    background-color: white;
+    padding: 9px;
+    border-radius: 13px;
+    font-size: 18px;
+}
